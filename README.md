@@ -1,1 +1,1 @@
-Description: Display weatherin five different cities.
+Description: Display weather in five different cities.

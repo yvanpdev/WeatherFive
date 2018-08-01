@@ -2,8 +2,8 @@ import React from "react";
 import WeatherCard from "./WeatherCard";
 
 // Iterate through each city passing weather information WeatherCard component
-const WeatherCardList = ({ cities }) => {
-  console.log(cities);
+const WeatherCardList = ({ cities}) => {
+  
   if (cities) {
     const cardArray = cities.map(city => (
       <WeatherCard

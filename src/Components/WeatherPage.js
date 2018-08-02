@@ -28,7 +28,7 @@ class WeatherPage extends Component {
     const { cityId } = this.state;
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${API_KEY}`
+        `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${API_KEY}`
       )
       .then(res =>
         this.setState({

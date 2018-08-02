@@ -23,7 +23,7 @@ class Home extends Component {
     citiesID.map(city =>
       axios
         .get(
-          `http://api.openweathermap.org/data/2.5/weather?id=${city}&APPID=${API_KEY}`
+          `http://api.openweathermap.org/data/2.5/weather?id=${city}&?units=imperial&APPID=${API_KEY}`
         )
         .then(res =>
           this.setState({ cities: [...this.state.cities, res.data] })
@@ -34,7 +34,7 @@ class Home extends Component {
   render() {
     return (
       <div className="tc">
-        <h1>Weather Five</h1>
+        <h1 className="f-6">Weather Five</h1>
         <WeatherCardList cities={this.state.cities} />
       </div>
     );

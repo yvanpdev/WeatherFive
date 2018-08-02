@@ -2,3 +2,7 @@
   width: 250px;
   height: 500px;
 }
+
+.gradient-blue { 
+  background-image: radial-gradient(circle, #C0F1FF,#4570B0);
+}

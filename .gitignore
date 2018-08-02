@@ -7,7 +7,7 @@
 /coverage
 
 #eslint
-.eslintrc.json
+
 
 # production
 /build

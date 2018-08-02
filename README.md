@@ -11,6 +11,8 @@ used react-router-dom for routing pages
 query data to weatherpage and places info on table (same process as from weatherlist to weathercard)
 host project to heroku for demo
 
+### [Demo] (https://arcane-crag-82275.herokuapp.com/)
+![image] (https://user-images.githubusercontent.com/12747465/43614846-052e1c16-9683-11e8-9a4f-8d97d810092b.png)
 
 Build:
 ```
@@ -32,3 +34,4 @@ Show map [api, functionality]
 Use redux to store information - for possible location saving features
 catch error / testing
 mobile version
+break down to smaller reusable components
